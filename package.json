@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+     "type":"commonjs"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "dev":"nodemon src/app.js"
+  }
+}
