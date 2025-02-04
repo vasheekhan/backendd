@@ -10,5 +10,9 @@
 -what are the dependecies
 -What is the use of -g while npm install
 
+-Initialize git 
+-gitignore
+-create a remote repo on github
+-push all the code to the github
 
 
