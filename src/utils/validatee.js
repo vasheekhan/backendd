@@ -12,4 +12,10 @@ const validatee=(req)=>{
     }
 
 }
-module.exports= validatee
+const validateProfileData=(req)=>{
+const allowedFields=["firstName","lastName","about","age","gender","photourl","about"];
+isUpdateValid=Object.keys(req.body).every(feild=>allowedFields.includes(feild));
+console.log(isUpdateValid);
+return isUpdateValid;
+}
+module.exports= {validatee,validateProfileData}
